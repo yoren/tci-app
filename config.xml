@@ -64,7 +64,7 @@
 
     <icon src="icon.png" />
 
-    <content src="http://www.totalcare.org.tw/app/?appp=1" />
+    <content src="index.html" />
     <access origin="*" subdomains="true" />
 
 </widget>
