@@ -1,14 +1,23 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="tw.org.totalcare.www" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "tw.org.totalcare.www"
+        version   = "1.0.0">
+
     <name>TotalCare</name>
+
     <description>
         Not just another AppPresser app.
     </description>
-    <author email="yoren@igd.tw" href="http://www.igd.tw">
-        IdeaGrapes Team
+
+    <author href="http://www.igd.tw" email="yoren@igd.tw">
+        IdeaGrapes
     </author>
 
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="3.3.0" />
+    <preference name="android-minSdkVersion" value="14" /><!-- Android 4.0 is minimum supported -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
     <gap:plugin name="org.apache.cordova.device" />
@@ -23,7 +32,12 @@
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="com.simplec.plugins.localnotification" />
+    <gap:plugin name="com.phonegap.plugins.pushplugin" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="keyboardDisplayRequiresUserAction" value="false" />
 
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
@@ -52,4 +66,5 @@
 
     <content src="http://www.totalcare.org.tw/app/?appp=1" />
     <access origin="*" subdomains="true" />
+
 </widget>
