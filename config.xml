@@ -39,7 +39,7 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
 
-    <gap:splash src="splash.9.png" />
+    <gap:splash src="screen" />
 
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
@@ -61,13 +61,13 @@
     <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
     <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
-    <gap:splash src="res/screen/android/drawable-ldpi/splash.9.png" gap:platform="android" gap:qualifier="ldpi" />
-    <gap:splash src="res/screen/android/drawable-mdpi/splash.9.png" gap:platform="android" gap:qualifier="mdpi" />
-    <gap:splash src="res/screen/android/drawable-hdpi/splash.9.png" gap:platform="android" gap:qualifier="hdpi" />
-    <gap:splash src="res/screen/android/drawable-xhdpi/splash.9.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <gap:splash src="res/screen/android/drawable-ldpi/screen.png" gap:platform="android" gap:qualifier="ldpi" />
+    <gap:splash src="res/screen/android/drawable-mdpi/screen.png" gap:platform="android" gap:qualifier="mdpi" />
+    <gap:splash src="res/screen/android/drawable-hdpi/screen.png" gap:platform="android" gap:qualifier="hdpi" />
+    <gap:splash src="res/screen/android/drawable-xhdpi/screen.png" gap:platform="android" gap:qualifier="xhdpi" />
 
-    <preference name="SplashScreenDelay" value="5000" />
-    <preference name="FullScreen" value="true" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="10000" />
 
     <content src="index.html" />
     <access origin="*" subdomains="true" />
