@@ -39,7 +39,7 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
 
-    <gap:splash src="screen" />
+    <gap:splash src="screen.png" />
 
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
