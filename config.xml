@@ -6,14 +6,14 @@
         id        = "tw.org.totalcare.www"
         version   = "1.0.0">
 
-    <name>華人癌症資訊</name>
+    <name>TCI 華人癌症資訊網</name>
 
     <description>
-        當我們看到國外有像NCI(美國國家癌病協會)或ACS (America Cancer Society)提供民眾完整的癌症資訊時，是否大家也同樣希望有一個以提供華語為主，資訊完整、正確的癌症資訊網站。因此，我們分析整理了目前華人的癌 症網站，發現部分癌症相關資訊仍有許多不足與缺乏的地方。成立台灣癌症資訊全人關懷協會的宗旨，就是希望以華語提供全方位華人地區的癌症病患及家屬在面對 疾病時需要的完整資訊和線上諮詢協助，並提升其生活品質。
+        當我們看到國外有像NCI(美國國家癌病協會)或ACS (America Cancer Society)提供民眾完整的癌症資訊時，是否大家也同樣希望有一個以提供華語為主，資訊完整、正確的癌症資訊網站。因此，我們分析整理了目前華人的癌症網站，發現部分癌症相關資訊仍有許多不足與缺乏的地方。成立台灣癌症資訊全人關懷協會的宗旨，就是希望以華語提供全方位華人地區的癌症病患及家屬在面對 疾病時需要的完整資訊和線上諮詢協助，並提升其生活品質。
     </description>
 
     <author href="http://www.totalcare.org.tw" email="tci@totalcare.org.tw">
-        華人癌症資訊網
+        台灣癌症資訊全人關懷協會
     </author>
 
     <preference name="phonegap-version" value="3.3.0" />
