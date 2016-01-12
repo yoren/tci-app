@@ -43,7 +43,7 @@
 
     <!-- to show app faster, set autohide to true. iOS only -->
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenDelay" value="5000" />
 
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
