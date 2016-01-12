@@ -3,7 +3,11 @@
 <head>
     <!-- Change the url below to your site. -->
     <script type="text/javascript">
-    window.location = 'http://www.totalcare.org.tw/app/?appp=1';
+    document.addEventListener('deviceready', function() {
+      navigator.splashscreen.hide();
+
+      window.location = 'http://www.totalcare.org.tw/app/?appp=1';
+    });
     </script>
 </head>
 <body>
