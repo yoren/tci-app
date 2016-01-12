@@ -42,7 +42,7 @@
     <!-- <plugin name="org.apache.cordova.vibration" version="0.3.11" /> -->
 
     <!-- to show app faster, set autohide to true. iOS only -->
-    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
 
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
