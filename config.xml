@@ -25,7 +25,7 @@
     <platform name="android" />
 
     <!-- You can comment out features you aren't using -->
-    <plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+    <plugin name="com.phonegap.plugin.statusbar" version="1.1.0" source="pgb" />
     <!-- <plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" /> -->
     <!-- <plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" /> -->
     <!-- <plugin name="org.apache.cordova.camera" version="0.3.2" /> -->
