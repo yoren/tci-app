@@ -38,7 +38,7 @@
     <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
     <!-- <plugin name="org.apache.cordova.media-capture" version="0.3.3" /> -->
     <plugin name="org.apache.cordova.network-information" spec="0.2.15" source="pgb" />
-    <plugin name="org.apache.cordova.splashscreen" version="2.1.1" source="pgb" />
+    <plugin name="org.apache.cordova.splashscreen" spec="1.0.0" source="pgb" />
     <!-- <plugin name="org.apache.cordova.vibration" version="0.3.11" /> -->
 
     <!-- to show app faster, set autohide to true. iOS only -->
