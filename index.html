@@ -2,14 +2,33 @@
 <html>
 <head>
     <!-- Change the url below to your site. -->
-    <script type="text/javascript">
-    document.addEventListener('deviceready', function() {
-      navigator.splashscreen.hide();
+    // <script type="text/javascript">
+    // document.addEventListener('deviceready', function() {
+    //   navigator.splashscreen.hide();
 
-      window.location = 'http://www.totalcare.org.tw/app/?appp=1';
-    });
+    //   window.location = 'http://www.totalcare.org.tw/app/?appp=1';
+    // });
+    // </script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Now safe to use device APIs
+        navigator.splashscreen.hide();
+
+        window.location = 'http://www.totalcare.org.tw/app/?appp=1';
+    }
+
     </script>
 </head>
-<body>
+<body onload="onLoad()">
 </body>
 </html>
